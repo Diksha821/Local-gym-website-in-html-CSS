@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRAVITY FITNESS</title>
+</head>
+<link rel="stylesheet" href="PROJECT 1/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        background: url('img/bg1.jpg');
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 15px;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        width: 50px;
+        margin-left: 20px;
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 15px;
+        text-align: center;
+       
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 19px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 25px;
+        display: inline-block;
+        /* border: 2px solid blue; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+        
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 35px 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 5px;
+        color: white;
+        background-color: black;
+        padding: 4px 10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 100px 20px;
+        padding: 2px;
+        width: 33%;
+        border-radius: 23px;
+       
+    }
+
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        border-radius: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .container h2{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 300px;
+        margin: auto;
+        
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div> Gravity Fitness</div>
+
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us </a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <button class="btn">Call us now </button>
+            <button class="btn">E-mail us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the best gym of Dwarahat now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your E-mail">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
